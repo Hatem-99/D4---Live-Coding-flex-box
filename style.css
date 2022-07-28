@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+
+}
+h1,h2,h3,h4,h5,h6{
+margin: 0;
+}
+.img{
+   height: 100%;
+   flex-grow: 1;
+}
+.flex{
+    display: flex;
+}
+.contaner{
+    display: flex;
+    flex-grow: 1;
+    
+    
+}
+.contaner1{
+    height: 50px;
+    width: 50px;
+    background-color: #80808085;;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-block: auto;
+    margin-inline: 1rem;
+}
+.contaner1 svg{
+    margin-block: auto;
+    width: 20px;
+    justify-content: center;
+    height: 20px;
+
+}
+.avatar{
+    border-radius: 50%;
+    height: 50px;
+    margin-block: auto;
+
+}
+
+header{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+}
+.unlysted-list{
+    margin-top: 2rem;
+    display: flex;
+    
+}
+.unlysted-list a{
+text-decoration: none;
+color: black;
+}
+.unlysted-list svg{
+   
+}
+.items{
+    list-style: none;
+    font-size: 30px;
+    padding: 0 20px;
+}
+.btn{
+    background-color: #FFFFFF;
+    color: black;
+    height: 50px;
+    width: auto;
+}
+button:first-of-type{
+  background-color: #1ACB98;
+  color: #ebebeb;
+}
+.hero{
+    height: 40vh;
+    width: 100vw;
+    background-color: #7550FE;
+    display: flex;
+}
+.hero .content{
+    flex-grow: 2;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 25px;
+}
+.opetions{
+    display: flex;
+    
+    margin-bottom: 150px;
+    justify-content: space-between;
+}
+.opetions div div{
+    height: 50px;
+    justify-content: center;
+    width: 50px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.card{
+    height: 400px;
+    width: 250px;
+    
+    
+    
+}
+.card >img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card div img{
+    display: inline-block;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.cards{
+    gap: 50px ;
+    height: 400px;
+    width: 100vw;
+    justify-content: center;
+}
+    
