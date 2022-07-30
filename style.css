@@ -92,7 +92,11 @@ color: black;
     list-style: none;
     font-size: 30px;
     padding: 0 20px;
-    align-items: c;
+    
+}
+footer nav ul li {
+    list-style: none;
+    justify-content: end;
 }
 
 .btn{
@@ -173,7 +177,7 @@ h1{
 }
 .card{
     width: 100%;
-    
+    align-self: baseline;
     
     
 }
@@ -200,9 +204,9 @@ h1{
     padding-top: 40px;
 }
 .cards{
-    height: 315px;
-    width: 70vw;
-    gap: 20px;
+    height: 250px;
+    width: 75vw;
+    gap: 30px;
     position: relative;
 }
 .cards-section{
